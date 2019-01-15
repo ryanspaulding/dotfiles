@@ -1,0 +1,15 @@
+[user]
+	name = Ryan Spaulding 
+	email = ryanspaulding@gmail.com 
+[color]
+	ui = true
+[core]
+        pager = less -r
+# Place your aliases here
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+    s = status
+    a = add -A
+    changes=diff --name-status -r
+    diffstat=diff --stat -r
+    p = pull origin master
