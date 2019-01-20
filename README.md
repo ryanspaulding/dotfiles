@@ -1,11 +1,13 @@
-    # Collection of dotfiles
+# Collection of dotfiles
 
-Note that this file structure is setup this way so that "stow" can be used:
+Note that this file structure is setup this way so that "stow" (https://www.gnu.org/software/stow/) can be used:
 
-* stow python
-* stow tmux
-* stow vim
-* stow git
+* `stow python`
+* `stow tmux`
+* `stow vim`
+* `stow git`
+
+Keep in mind that with stow no news is good news :)
 
 ```
 ryanspaulding@penguin:~/dotfiles$ ls -l ../.gitconfig
