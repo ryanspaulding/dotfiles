@@ -20,4 +20,10 @@ lrwxrwxrwx 1 ryanspaulding ryanspaulding 23 Jan 15 06:18 ../.gitconfig -> dotfil
 
 ## .bashrc file setup
 
+Keep custom bashrc items in our own file for easy updates. Add this to the ~/.bashrc file:
+
+```
+# Adding in my custom bash setup
+ . ~/dotfiles/bashrc.bash
+```
 
